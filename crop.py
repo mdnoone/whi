@@ -1,7 +1,8 @@
+
 import os, cv2
 
-directory = "E:\\Hayden_Elza\\whi\\img2"
-new_directory = "E:\\Hayden_Elza\\whi\\img3"
+directory = "Y:\\BordnerMaps_2014\\aerial_photos\\Wisconsin_historical_aerial_photos2"
+new_directory = "Y:\\BordnerMaps_2014\\aerial_photos\\Wisconsin_historical_aerial_photos_croped200"
 crop_amount = 200  # Amount in pixels to crop
 
 if not os.path.isdir(new_directory): os.mkdir(new_directory)
